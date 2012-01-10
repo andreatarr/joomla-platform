@@ -116,7 +116,7 @@ class JControllerForm extends JController
 				array('/([^aeiouy]|qu)ies$/i', "$1y"),
 				array('/(bu)s$/i', "$1ses"),
 				array('/s$/i', "s"),
-				array('/$/', "s"));
+				array('/$/', "s");
 
 			// check for matches using regular expressions
 			foreach ($plural as $pattern)
